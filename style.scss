@@ -1,0 +1,416 @@
+//colors
+$gray_1: #3A3A3A;
+$white: #FFFFFF;
+$gray_2: #616161;
+$primary: #E89F71;
+$gray_3: #898989;
+$gray_5: #D8D8D8;
+$light_bg: #F4F5F7;
+$gray_4: #B0B0B0;
+$green_accents: #2EC1AC;
+$red_accents: #E97171;
+$black: #000000;
+$dark_blue: #262F56;
+$whitish: #FCF8F3;
+$gray_6: #C4C4C4;
+$whitish_2: #F9F1E7;
+
+.title-h2{
+    font-size: 40px;
+    text-align: center;
+    &-noMargin{
+        margin:0;
+    }
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    &-light{
+    background-color:$whitish_2;
+    }
+    &-alter{
+        background-color: $light_bg;
+    }
+    &-dark{
+        background-color: $gray_1;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.nav{
+    position:relative;
+    display:flex;
+    list-style-type:none;
+    padding-left: 0;
+    &-item{
+         margin-left:40px;
+    }
+
+    &-link{
+        color: $gray_1;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
+
+.main{
+    position:relative;
+ //   display:flex;
+    height:664px;
+}
+.background{
+    position:absolute;
+    display:flex;
+    overflow: hidden;
+    right:30px;
+    bottom:30px;
+}
+.banner{
+    padding:60px;
+    width:374px;
+    height:433px;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    left:150px;
+    justify-content:space-between;
+    &-first{
+        position:relative;
+        font-size: 56px;
+        margin:0;
+    }
+    &-second{
+        position:relative;
+        top: 20px;
+        font-size: 22px;
+        color:$gray_3;
+
+    }
+    &-btn{
+        position : absolute;
+        bottom:60px;
+        background-color: $primary;
+        color:#FFFFFF;
+        font-size:16px;
+        text-decoration: none;
+        padding: 24px 107px;
+        font-size: 20px;
+
+    }
+
+}
+.banner-btn:hover{
+    opacity: 0.7;
+}
+
+.searchbar{
+    position:relative;
+    background-color:white;
+    align-items: center;
+    &-field{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        position:relative;
+        height:35px;
+        width:500px;
+        outline:none;
+    }
+    &-button{
+        height:25px;
+        width:25px;
+        cursor: pointer;
+        background-color:white;
+        border-style:none;
+
+    }
+}
+
+.feature{
+    position:relative;
+    height:85px;
+    justify-content:space-between;
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:40px;
+    &-item{
+        position:relative;
+        display:flex;
+        &-pic{
+            position:relative;
+            top:22.5px;
+            margin-right:20px;
+        }
+        &-text{
+            &-1{
+                font-size:18px;
+            }
+            &-2{
+                font-size:16px;
+                color:$gray_3;
+            }
+        }
+    }
+}
+
+.product{
+    display:inline-block;
+    justify-content:space-between;
+    text-align: center;
+    text-decoration: none;
+    &-item{
+        display:inline-block;
+        justify-content:center;
+        text-align: center;
+        width: 340px;
+        margin:5px;
+        vertical-align: top;
+    }
+    &-item-chosen{
+        display:inline-block;
+        justify-content:center;
+        text-align: center;
+        width: 340px;
+        margin:4px;
+        vertical-align: top;
+        border-color: $black;
+        border-style: solid;
+        border-width: 1px;
+       
+    }
+    &-title{
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0;
+        color:black;
+    }
+    &-description{
+        font-weight: 500;
+        font-size: 16px;
+        color: $gray_3;
+        margin:2px;        
+    }
+    &-price{
+        font-weight: 600;
+        font-size: 20px;
+        margin:0;
+        margin-bottom:2px;   
+        color:black;
+    }
+    &-act{
+        background-color: $gray_1;
+        color: white;
+        text-decoration: none;
+        min-width:100px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-color: $black;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+    }
+    &-act:hover{
+        opacity: 0.7;  
+    }
+    &-increment{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        background-color: $gray_6;
+        color: black;
+        text-decoration: none;
+        height: 20px;
+        width: 20px;
+        font-size: 16px;
+        border-color: $black;
+        border-style: solid;
+        border-width: 1px;
+    }
+    &-increment:hover{
+        opacity: 0.7;  
+    }
+}
+.productView{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    &-item{
+        justify-content:center;
+        text-align: center;
+        width: 340px;
+        margin:5px;
+        vertical-align: top;
+    }
+}
+.SeeMore{
+    margin: auto;
+    margin-top:35px;
+    width: 100%;
+    height: 60px;
+    text-align:center;
+    &-btn{
+    //       bottom:60px;
+        background-color: $light_bg;
+        color: $primary;
+        font-size:16px;
+        text-decoration: none;
+        padding: 20px 90px;
+        font-size: 20px;
+        border-color: $primary;
+        border-style: solid;
+        border-width: 1px;
+
+    }
+    &-btn:hover{
+        background-color: $gray_5;
+    }
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    text-align:center;
+    &-logo{
+        flex: 0 0 40%;
+        align-items: center;
+        text-align:center;
+    }
+    &-nav{
+        flex: 0 0 60%;
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+    }
+    &-list{
+        list-style: none;
+        margin-right:30px;
+        padding-left: 0;
+        &-link{
+            color: $gray_4;
+            text-decoration: none;
+        }
+    }
+    &-item{
+        margin-bottom:10px;
+    }
+}
+
+.cancelbtn {   
+     width: auto;   
+     padding: 10px 18px;  
+     margin: 10px 5px;  
+ } 
+
+
+.user{
+    display:flex;
+    justify-content: center;
+    &-text{
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0;
+        color:black;
+    }
+    &-field {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;    
+        box-sizing: border-box;   
+    }  
+    &-button {   
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;   
+        text-decoration: none;
+        background-color: $primary;   
+        width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+
+    }   
+    &-button:hover{
+        opacity: 0.7;   
+    }
+    &-container {     
+        text-align:center;  
+        max-width: 400px;
+        padding: 25px;   
+        background-color: $whitish_2;  
+    }
+    &-buttonA{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;   
+        text-decoration: none;
+        background-color: $primary;   
+        width: 100%;  
+        color: white;   
+        padding: 15px;    
+        border: none;   
+        cursor: pointer;   
+    }
+    &-buttonB{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;  
+        background-color: $light_bg;
+        width: 100%;  
+        padding: 15px; 
+        border: none;   
+        cursor: pointer;   
+    
+    
+        color: $primary;
+        text-decoration: none;
+        border-color: $primary;
+        border-style: solid;
+        border-width: 1px;
+    }
+} 
+
+.backBtn{
+    background-color: $light_bg;
+    width: 100%;  
+    padding: 15px; 
+    border: none;   
+    cursor: pointer;   
+
+
+    color: $primary;
+    text-decoration: none;
+    border-color: $primary;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.backBtn:hover{
+    background-color: $gray_5;   
+}
+
+
+.message{
+    position: sticky;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background-color: var(--white);
+    text-align: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    color:var(--black);
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+ }
+

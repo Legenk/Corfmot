@@ -1,0 +1,483 @@
+.title-h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-h2-noMargin {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper-light {
+  background-color: #F9F1E7;
+}
+
+.wrapper-alter {
+  background-color: #F4F5F7;
+}
+
+.wrapper-dark {
+  background-color: #3A3A3A;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 100px;
+}
+
+.nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
+.nav-link {
+  color: #3A3A3A;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main {
+  position: relative;
+  height: 664px;
+}
+
+.background {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  right: 30px;
+  bottom: 30px;
+}
+
+.banner {
+  padding: 60px;
+  width: 374px;
+  height: 433px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner-first {
+  position: relative;
+  font-size: 56px;
+  margin: 0;
+}
+
+.banner-second {
+  position: relative;
+  top: 20px;
+  font-size: 22px;
+  color: #898989;
+}
+
+.banner-btn {
+  position: absolute;
+  bottom: 60px;
+  background-color: #E89F71;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 24px 107px;
+  font-size: 20px;
+}
+
+.banner-btn:hover {
+  opacity: 0.7;
+}
+
+.searchbar {
+  position: relative;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchbar-field {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  position: relative;
+  height: 35px;
+  width: 500px;
+  outline: none;
+}
+
+.searchbar-button {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color: white;
+  border-style: none;
+}
+
+.feature {
+  position: relative;
+  height: 85px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.feature-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature-item-pic {
+  position: relative;
+  top: 22.5px;
+  margin-right: 20px;
+}
+
+.feature-item-text-1 {
+  font-size: 18px;
+}
+
+.feature-item-text-2 {
+  font-size: 16px;
+  color: #898989;
+}
+
+.product {
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-item {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 340px;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.product-item-chosen {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 340px;
+  margin: 4px;
+  vertical-align: top;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.product-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #898989;
+  margin: 2px;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.product-act {
+  background-color: #3A3A3A;
+  color: white;
+  text-decoration: none;
+  min-width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.product-act:hover {
+  opacity: 0.7;
+}
+
+.product-increment {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: #C4C4C4;
+  color: black;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+  font-size: 16px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.product-increment:hover {
+  opacity: 0.7;
+}
+
+.productView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productView-item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 340px;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.SeeMore {
+  margin: auto;
+  margin-top: 35px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+.SeeMore-btn {
+  background-color: #F4F5F7;
+  color: #E89F71;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 20px 90px;
+  font-size: 20px;
+  border-color: #E89F71;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.SeeMore-btn:hover {
+  background-color: #D8D8D8;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.footer-list {
+  list-style: none;
+  margin-right: 30px;
+  padding-left: 0;
+}
+
+.footer-list-link {
+  color: #B0B0B0;
+  text-decoration: none;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-text {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.user-field {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.user-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  background-color: #E89F71;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.user-button:hover {
+  opacity: 0.7;
+}
+
+.user-container {
+  text-align: center;
+  max-width: 400px;
+  padding: 25px;
+  background-color: #F9F1E7;
+}
+
+.user-buttonA {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  background-color: #E89F71;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.user-buttonB {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: #F4F5F7;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  color: #E89F71;
+  text-decoration: none;
+  border-color: #E89F71;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.backBtn {
+  background-color: #F4F5F7;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  color: #E89F71;
+  text-decoration: none;
+  border-color: #E89F71;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.backBtn:hover {
+  background-color: #D8D8D8;
+}
+
+.message {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background-color: var(--white);
+  text-align: center;
+  z-index: 1000;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  color: var(--black);
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
